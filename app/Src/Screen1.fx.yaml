@@ -1,0 +1,24 @@
+Screen1 As screen:
+
+    Rectangle1 As rectangle:
+        Height: =614
+        Width: =680
+        X: =432
+        Y: =72
+        ZIndex: =1
+
+    "ViewIn3D1 As 'Afficher en 3D (version préliminaire)'.pcfdataset":
+        BackgroundFill: =RGBA(230, 235, 240, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =400
+        Width: =400
+        X: =500
+        Y: =152
+        ZIndex: =2
+
+    Button1 As button:
+        Text: ="Bouton"
+        X: =620
+        Y: =458
+        ZIndex: =3
+
