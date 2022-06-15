@@ -7,8 +7,39 @@ Screen1 As screen:
         ZIndex: =1
 
     Button3 As button:
-        Text: ="Bouton"
+        Text: ="Connexion"
         X: =603
-        Y: =478
+        Y: =481
         ZIndex: =2
+
+    TextInput1 As text:
+        BorderColor: =RGBA(175, 191, 224, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        Default: ="Entrée de texte"
+        Fill: =RGBA(136, 160, 209, 1)
+        X: =523
+        Y: =364
+        ZIndex: =3
+
+    TextInput2 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Color: =RGBA(255, 255, 255, 1)
+        Default: ="Entrée de texte"
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.Arial
+        Height: =70
+        Size: =30
+        X: =523
+        Y: =130
+        ZIndex: =5
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(175, 191, 224, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        Default: ="Entrée de texte"
+        Fill: =RGBA(136, 160, 209, 1)
+        X: =523
+        Y: =279
+        ZIndex: =6
 
