@@ -7,6 +7,7 @@ Screen1 As screen:
         ZIndex: =1
 
     Button3 As button:
+        OnSelect: =Navigate(
         Text: ="Connexion"
         X: =603
         Y: =481

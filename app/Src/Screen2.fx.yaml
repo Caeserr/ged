@@ -1,0 +1,180 @@
+"Screen2 As screen.'tabletLayout_HeaderAndGallery_ver3.0'":
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(31, 30, 82, 1)
+        Height: =708
+        Width: =1116
+        X: =250
+        Y: =60
+        ZIndex: =1
+
+    "TemplateGalleryList1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(230, 230, 230, 1)
+        BorderThickness: =3
+        Height: =437
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =547
+        X: =310
+        Y: =160
+        ZIndex: =2
+
+        Image1 As image:
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleHeading
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image1.Width - 104
+            X: =Image1.X + Image1.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.SampleText
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title2.Width
+            X: =167
+            Y: =80
+            ZIndex: =3
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Afficher les détails de l'élément"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator1 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 13, 75, 1)
+        Fill: =RGBA(11, 17, 48, 1)
+        Height: =767
+        Width: =250
+        ZIndex: =3
+
+    Title1 As label:
+        Align: =Align.Center
+        Height: =64
+        PaddingRight: =10
+        Text: ="Consultum"
+        Width: =242
+        X: =8
+        ZIndex: =4
+
+    Button1 As button:
+        Text: ="Accueil"
+        X: =63
+        Y: =120
+        ZIndex: =5
+
+    Button2 As button:
+        Text: ="Documents"
+        X: =63
+        Y: =184
+        ZIndex: =6
+
+    Button4 As button:
+        Text: ="Messages"
+        X: =63
+        Y: =246
+        ZIndex: =7
+
+    Button5 As button:
+        Text: ="Planning"
+        X: =63
+        Y: =307
+        ZIndex: =8
+
+    Button1_1 As button:
+        Height: =51
+        Text: ="Configurer l'interface"
+        Width: =291
+        X: =310
+        Y: =92
+        ZIndex: =9
+
+    Rectangle4 As rectangle:
+        BorderColor: =RGBA(230, 230, 230, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =217
+        Width: =390
+        X: =899
+        Y: =160
+        ZIndex: =10
+
+    RectQuickActionBar1 As rectangle:
+        BorderColor: =RGBA(240, 24, 24, 1)
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =64
+        Width: =1116
+        X: =250
+        ZIndex: =11
+
+    Title1_1 As label:
+        Align: =Align.Center
+        Height: =64
+        PaddingRight: =10
+        Text: ="Messages"
+        Width: =169
+        X: =899
+        Y: =160
+        ZIndex: =12
+
+    Rectangle4_1 As rectangle:
+        BorderColor: =RGBA(230, 230, 230, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =104
+        Width: =547
+        X: =310
+        Y: =631
+        ZIndex: =13
+
+    Title1_2 As label:
+        Align: =Align.Center
+        Height: =64
+        PaddingRight: =10
+        Text: ="Notifications"
+        Width: =169
+        X: =310
+        Y: =631
+        ZIndex: =14
+
