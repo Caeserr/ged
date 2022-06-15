@@ -1,30 +1,14 @@
 Screen1 As screen:
 
     Rectangle1 As rectangle:
-        Height: =614
-        Width: =680
-        X: =432
-        Y: =72
+        Fill: =RGBA(12, 18, 40, 100)
+        Height: =768
+        Width: =1366
         ZIndex: =1
 
-    "ViewIn3D1 As 'Afficher en 3D (version préliminaire)'.pcfdataset":
-        BackgroundFill: =RGBA(230, 235, 240, 1)
-        DisplayMode: =DisplayMode.Edit
-        Height: =400
-        Width: =400
-        X: =532
-        Y: =144
+    Button3 As button:
+        Text: ="Bouton"
+        X: =603
+        Y: =478
         ZIndex: =2
-
-    Button1 As button:
-        Text: ="Bouton"
-        X: =620
-        Y: =458
-        ZIndex: =3
-
-    Button2 As button:
-        Text: ="Bouton"
-        X: =620
-        Y: =196
-        ZIndex: =4
 
