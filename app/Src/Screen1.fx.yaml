@@ -12,8 +12,8 @@ Screen1 As screen:
         DisplayMode: =DisplayMode.Edit
         Height: =400
         Width: =400
-        X: =500
-        Y: =152
+        X: =532
+        Y: =144
         ZIndex: =2
 
     Button1 As button:
@@ -21,4 +21,10 @@ Screen1 As screen:
         X: =620
         Y: =458
         ZIndex: =3
+
+    Button2 As button:
+        Text: ="Bouton"
+        X: =620
+        Y: =196
+        ZIndex: =4
 
